@@ -1,0 +1,182 @@
+body {
+    background-image: url('https://demos.themeselection.com/marketplace/materio-mui-nextjs-admin-template/demo-1/images/front-pages/landing-page/hero-bg-light.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.second-icon{
+    
+    background-color: aliceblue;
+}
+
+.second-icon:hover{
+    background-color: #E3D7FF;
+}
+
+.third-img{
+    cursor: pointer;
+}
+
+.third-img:hover{
+    transition: all 0.3s;
+    scale: 1.1;
+    rotate: 2deg;
+}
+
+/* Dropdown */
+.dropdown {
+    width: 900px;
+    display: none;
+    margin-top: 2.3rem;
+    margin-left: -25rem;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .nav-menu:hover {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  .mi:hover .dropdown {
+    display: flex;
+    color: black;
+  }
+  
+  .drop-image {
+    width: 300px;
+  }
+  
+
+
+.wqe{
+    top: 87%;
+    left: 93%;
+    position: fixed !important;
+}
+
+
+
+
+
+.field{
+    position: relative;
+}
+.field input {
+    color: #565656;
+    background: none;
+    padding: 0.63rem;
+}
+.field label{
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    transform: 0.63rem 0.63rem;
+    color: #030104;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms, background-color 250ms, border-color 250ms;
+}
+.field:focus-within label, .field:not(:has(:placeholder-shown)) label{
+    translate: 0 -2.5rem;
+    
+}
+.field ::placeholder{
+    color: transparent;
+}
+
+
+
+.fields{
+    position: relative;
+}
+.fields input {
+    color: #565656;
+    background: none;
+    padding: 0.63rem;
+}
+.fields label{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    transform: 0.63rem 0.63rem;
+    color: #030104;
+    border: 2px solid transparent;
+    pointer-events: none;
+    transition: translate 250ms, background-color 250ms, border-color 250ms;
+}
+.fields:focus-within label, .fields:not(:has(:placeholder-shown)) label{
+    translate: 0 -2.5rem;
+    
+}
+.fields ::placeholder{
+    color: transparent;
+}
+
+
+
+.first {
+    position: relative;
+    z-index: 1;
+    display: inline-block; /* Ensures the relative positioning aligns with the image */
+  }
+  
+  .first img {
+    display: block; /* Removes extra spacing under images */
+  }
+  
+  .firsting {
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+  }
+  
+  .btn-primary-custom {
+    background-color: #8c57ff;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary-custom:hover {
+    background-color: #703dd3;
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+  }
+  
+
+  
+
+
+@media (max-width:780px){
+    .new{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .oiu{
+        width: 50% !important;
+    }
+
+    .nav-li{
+        display: none !important;
+    }
+    .conta{
+        width: 90% !important;
+    }
+    
+    .dfg{
+        display: block !important;
+    }
+    .df{
+        padding: 1rem !important;
+    }
+    .mk{
+        display: none;
+    }
+}
+
+
